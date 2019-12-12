@@ -69,7 +69,8 @@ DEFAULT_REQUEST_HEADERS = {
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
    # 'bmw5_images.pipelines.Bmw5ImagesPipeline': 300,
-    'scrapy.pipelines.images.ImagesPipeline': 1,
+   #  'scrapy.pipelines.images.ImagesPipeline': 1,
+    'bmw5_images.pipelines.BMWImagesPipeline': 1,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
