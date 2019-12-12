@@ -1,0 +1,2 @@
+# bmw5_images
+利用scrapy内置imagespipeline下载汽车之家宝马5系高清图片
